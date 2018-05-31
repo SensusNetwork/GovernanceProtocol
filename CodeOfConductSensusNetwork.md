@@ -53,11 +53,11 @@ In Person: Contact a staff part, recognized by STAFF identifications.
 
 When taking an individual report, our staff will guarantee you are sheltered and can't be caught. They may include other occasion staff to guarantee your report is overseen legitimately. This can be awkward, however we'll deal with it deferentially and you can convey somebody to help you. 
 
-Email: Send a message to sensusnetwork@gmail.com as well as [insert neighborhood coordinator email] 
+Email: Send a message to sensusnetwork@gmail.com as well as 
 
 Our group will enable you to contact lodging/setting security, neighborhood law implementation, nearby help administrations, give escorts, or generally help you to feel alright for the term of the occasion. 
 
-Email: sensusnetwork@gmail.com, [insert nearby coordinator email] 
+Email: sensusnetwork@gmail.com, 
 
 Meeting coordinator versatile: 
 
