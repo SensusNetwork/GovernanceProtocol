@@ -1,10 +1,15 @@
-Scripts for Sensus deployment
-Introduction
-prepare.py compiles Sensus.sol and populates some helper variables inside prepare.js
+# Scripts for Sensus deployment using geth
 
-loadScript("prepare.js") loads these variables into geth.
-loadScript("deploy.js") deploys them.
-Example usage
+## Introduction
+
+`prepare.py` compiles `Sensus.sol` and populates some helper variables inside `prepare.js`
+
+1. `loadScript("prepare.js")` loads these variables into geth.
+2. `loadScript("deploy.js")` deploys them.
+
+## Example usage
+
+```
 usage: prepare.py [-h] [--solc SOLC]
                   [--creation-duration-mins CREATION_DURATION_MINS]
                   [--contracts-dir CONTRACTS_DIR] [--no-limits]
@@ -30,6 +35,8 @@ optional arguments:
   --split-execution-period SPLIT_EXECUTION_PERIOD
                         Number of seconds after the voting deadline for which
                         a split proposal is executable
+```
 You can for example call the script with a specifically compiled solc and set the creation to end in 15 mins by doing:
-
+```
 ./prepare.py --solc ~/ew/solidity/build/solc/solc --creation-duration-mins 15
+```
