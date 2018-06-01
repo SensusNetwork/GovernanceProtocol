@@ -10,3 +10,17 @@ contract VotingToChangeKeysMock is VotingToChangeKeys {
     VotingToChangeKeys(_proxyStorage)
   {
   
+}
+
+  function setTime(uint256 _newTime) public {
+    time = _newTime;
+  }
+
+  function getTime() public view returns(uint256) {
+    if(time == 0) {
+      return now;
+    } else {
+      return time;
+    }
+  }
+}
